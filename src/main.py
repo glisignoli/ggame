@@ -39,11 +39,11 @@ class main:
             screen.fill((0, 0, 0))
 
             # Update the sprites
-            #gui.spritegroup.update()
+            gui.spritegroup.update()
             player1.spritegroup.update()
 
             # Draw the screen
-            #gui.spritegroup.draw(screen)
+            gui.spritegroup.draw(screen)
             player1.spritegroup.draw(screen)
 
             # Replace the current screen with the new screen
