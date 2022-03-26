@@ -21,8 +21,7 @@ class main:
 
         # Initalise game objects
         gui = GUI()
-        
-        player1 = Player(name='Player 1', color=GColor.WHITE.tupple_format(), x_pos=700, y_pos=700, rotation=0)
+        player1 = Player(name='Player 1', color=GColor.WHITE.tupple_format(), x_pos=700, y_pos=700, rotation=45)
 
         clock = pygame.time.Clock()
 
